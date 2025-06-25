@@ -202,7 +202,7 @@ Running `demo.py` creates the following visualization categories:
 - **Load Balancing**: Even distribution prevents expert collapse
 - **Scalability**: Easy addition of new experts for domain expansion
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Implementation Notes
 - **PyTorch Framework**: CPU-optimized for educational use
