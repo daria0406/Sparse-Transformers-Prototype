@@ -2,7 +2,7 @@
 
 A comprehensive research prototype implementing sparse attention mechanisms, mixture-of-experts routing, and truthfulness evaluation for fact-checking applications. This project demonstrates key concepts in efficient transformer architectures through educational implementations and interactive visualizations.
 
-## 🎯 Project Overview
+## Project Overview
 
 This prototype explores three core areas:
 
@@ -12,7 +12,7 @@ This prototype explores three core areas:
 
 The implementation focuses on educational demonstrations rather than production training, making complex concepts accessible through clear visualizations and analysis tools.
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -29,7 +29,7 @@ The implementation focuses on educational demonstrations rather than production 
 - **`data/`** - Sample dataset generators
   - `sample_datasets.py` - Synthetic data generation mimicking real datasets
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -100,7 +100,7 @@ evaluator = TruthfulnessEvaluator()
 metrics = evaluator.calculate_comprehensive_metrics(y_true, y_pred)
 ```
 
-## 📊 Generated Visualizations
+## Generated Visualizations
 
 Running `demo.py` creates the following visualization categories:
 
@@ -156,7 +156,7 @@ Running `demo.py` creates the following visualization categories:
 ![Architecture Comparison](outputs/model_comparison/architecture_comparison.png)
 *Direct comparison between dense and sparse transformer architectures*
 
-## 🔬 Key Features
+## Key Features
 
 ### Sparse Attention Mechanisms
 - **Dense Attention**: Standard full attention for baseline comparison
@@ -184,7 +184,7 @@ Running `demo.py` creates the following visualization categories:
 - **Bias Detection**: Dataset balance and representation analysis
 - **Quality Assessment**: Data integrity and consistency checks
 
-## 📈 Performance Insights
+## Performance Insights
 
 ### Computational Efficiency
 - **Memory Reduction**: Up to 5x memory savings with 90% sparsity
@@ -216,7 +216,7 @@ Running `demo.py` creates the following visualization categories:
 - **Synthetic Data**: Real-world performance may vary
 - **Simplified Architecture**: Focus on core concepts over full implementation
 
-## 📝 Research Applications
+## Research Applications
 
 This prototype can be used for:
 
@@ -226,7 +226,7 @@ This prototype can be used for:
 - **Performance Analysis**: Comparing different architectural choices
 - **Research Validation**: Verifying theoretical computational savings
 
-## 🤝 Contributing
+## Contributing
 
 To extend this project:
 
@@ -236,18 +236,18 @@ To extend this project:
 4. **Dataset Support**: Expand `data/sample_datasets.py`
 5. **Visualizations**: Enhance `demo.py` with new analysis
 
-## 📚 References
+## References
 
 - Sparse Attention: "Generating Long Sequences with Sparse Transformers" (OpenAI, 2019)
 - Mixture of Experts: "Switch Transformer: Scaling to Trillion Parameter Models" (Google, 2021)
 - Truthfulness: "TruthfulQA: Measuring How Models Mimic Human Falsehoods" (Anthropic, 2021)
 - Fact-checking: "LIAR: A Benchmark Dataset for Fake News Detection" (Wang, 2017)
 
-## 📄 License
+## License
 
 This project is released under the MIT License. See LICENSE file for details.
 
-## 🙋 Support
+## Support
 
 For questions or issues:
 1. Check the generated `outputs/DEMONSTRATION_REPORT.md` for detailed results
@@ -255,6 +255,3 @@ For questions or issues:
 3. Run `python demo.py` to regenerate all visualizations
 4. Examine the sample outputs in the `outputs/` directory
 
----
-
-*This prototype demonstrates cutting-edge concepts in sparse transformers and truthfulness evaluation through accessible implementations and comprehensive visualizations.*
